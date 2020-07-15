@@ -1,0 +1,13 @@
+<div>
+    <div>
+        <form>
+            <input placeholder="email" name="email" (change)="handleInputChange($event)" />
+            <input placeholder="password" name="password" (change)="handleInputChange($event)" />
+        </form>
+        <button (click)="handleLogin();">Login</button>
+    </div>
+
+    <div>
+        <h1>User Token: {{token}} </h1>
+    </div>
+</div>
